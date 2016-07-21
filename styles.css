@@ -2,9 +2,31 @@ body {
   font-family: sans-serif;
 }
 
-header {
+header, footer {
   background-color: grey;
   height: 50px;
   text-align: center;
-  
+}
+
+nav li:hover {
+  color: white;
+}
+
+.container {
+  margin: 25px 0;
+  height: 200px;
+}
+
+.main-content {
+  background-color: aquamarine;
+  width: 75%;
+  height: 200px;
+  float: left;
+}
+
+.secondary-content {
+  background-color: yellow;
+  width: 25%;
+  height: 200px;
+  float: right;
 }
